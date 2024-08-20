@@ -1,0 +1,338 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=New+Amsterdam&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+PL:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body{
+
+    font-family: "PT Sans", sans-serif;
+
+
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+header{
+    background: url(Sunset\ on\ the\ big\ three!.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.452);
+    background-blend-mode: multiply;
+    padding: 15px 0;
+}
+
+.container{
+    width: 1100px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.logo{
+    width: 20%;
+}
+
+.logo h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.logo h2 span{
+    font-size: 17px;
+    font-weight: 400;
+    display: block;
+}
+
+nav{
+    width: 80%;
+    
+}
+
+nav ul{ 
+    display: flex;
+    justify-content: end;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+nav ul li a:hover{
+    color: rgb(228, 0, 0);
+    transition: all .99s ease-in-out;
+}
+
+.banner-content{
+     
+    padding: 150px  0;
+    text-align: center;
+    color: #fff;
+
+}
+.banner-content h1{
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.banner-content span{
+  width: 100px;
+  background: rgb(228, 0, 0);
+  height: 5px;
+  display: block;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+ 
+}
+.banner-content h3{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.banner-content a{
+color: white;
+text-decoration: none;
+padding: 15px;
+border-radius: 8px;
+letter-spacing: 2px;
+text-transform: uppercase;
+background-color: rgb(228, 0, 0);
+}
+
+.banner-content a:hover{
+    color: rgb(228, 0, 0);
+    background: #fff;
+    transition: all .5s ease-in-out;
+    font-weight: 600;
+}
+
+.event{
+    padding-top: 60px;
+    color: black;
+    font-size: 32px;
+    text-align: center;
+}
+
+.event h2{
+    font-size: 65px;
+}
+
+.event span{
+    width: 100px;
+    background: rgb(228, 0, 0);
+    height: 5px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.col-1-2{
+    padding: 20px;
+    text-align: center;
+}
+
+.col-1-2 img{
+ 
+    height:  500px;
+    object-fit: contain;
+    margin: auto ;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.452);
+
+}
+
+.col-1-2 h2{
+    color: rgba(0, 0, 0, 0.658);
+    font-size: 30px;
+    margin: 30px 0 0 0;
+}
+
+.col-1-2 p{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.658);
+}
+
+.col-1-2 a{
+    text-decoration: none;
+    color: rgb(228, 0, 0);
+    letter-spacing: 2px;
+    margin-top: 20px;
+    display: block;
+    font-size: 22px;
+}
+
+
+.explore-section{
+    background: url(sea.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(41, 41, 202);
+    color: #fff;
+    background-blend-mode: multiply;
+    padding: 180px 0;
+    margin-top: 105px;
+    background-attachment: fixed;
+}
+
+.explore-flex{
+    display: flex;
+    justify-content: end;
+}
+.column{
+    width: 50%;
+}
+
+.column h2{
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.column span{
+    width: 250px;
+    background: rgb(228, 0, 0);
+    height: 5px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.column p{
+    font-size: 18px;
+    margin: 45px 0 23px 0;
+}
+
+.column a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    background: rgb(228, 0, 0);
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+.column a:hover{
+    color: rgb(255, 255, 255);
+    background: rgb(228, 0, 0);
+    transition: all .5s ease-in-out;
+    
+}
+
+
+.tour-section {
+    padding: 62px 0;
+}
+
+.tour-section h2{
+    font-size: 25px;
+}
+
+.tour-section span{
+    width: 150px;
+    background: rgb(228, 0, 0);
+    height: 5px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.tour-section p{
+    font-size: 17.0px;
+    justify-content: end;
+   margin-bottom: 20px;
+}
+
+.tour-section a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    background: rgb(228, 0, 0);
+    padding: 6px 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.tour-section a:hover{
+    color: rgb(228, 0, 0);
+    background: #fff;
+    transition: all .5s ease-in-out;
+    font-weight: 600;
+    border-color: 2px rgb(228, 0, 0);
+}
+
+.col-1-3 {
+    padding: 20px;
+    margin: auto;
+    width: 33.33%;
+
+}
+
+.col-1-3 img{
+    margin-top: 40px
+}
+
+.footer{
+    padding: 20px 0;
+    background: rgb(4, 4, 51);
+    color: #fff;
+    margin: auto;
+}
+.col-1-4{
+    margin: auto;
+    width: 33.33%;
+    justify-content: space-between;
+    padding: 20px;
+    align-content: center;
+}
+
+.col-1-4 h4{
+    color: #fff;
+    font-size: 25px;
+}
+
+.col-1-4 ul li a{
+
+    color: #fff;
+    text-decoration: none;
+    padding: 2px;
+    font-size: 15px;
+
+
+}
+
+.col-1-4 ul{
+    display: block;
+    justify-content: space-around;
+
+}
+
+.col-1-4 ul li{
+    list-style: none;
+}
